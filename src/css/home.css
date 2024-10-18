@@ -6,11 +6,19 @@
     src: url("../../Harabara.ttf");
 }
 
+#root{
+    background: url('../assets/extraframe.png');
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+
+}
+
 
 
 .home-head{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: end;
      
 }
 
@@ -25,7 +33,7 @@
     font-size: 3em;
     width: 510px;
     /* grid-column: 1/2; */
-    justify-self: end;
+    
     
 }
 
@@ -38,6 +46,3 @@
     font-family: 'Work Sans';
 }
 
-.celestia-logo-home{
-    height: 500px;
-}
