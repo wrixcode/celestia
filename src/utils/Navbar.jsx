@@ -9,7 +9,7 @@ const Navbar = () => {
     setActiveItem(item);
   };
   return (
-      <div className="sticky">
+      <div className="home-navbar sticky">
       <div className="w-full  flex justify-center  items-center ">
       <div className="flex justify-between items-center py-2 px-3  m-6 bg-[#090909] rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]  w-[70%] ">
         {/* Navbar */}

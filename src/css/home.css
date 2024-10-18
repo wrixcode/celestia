@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: harabara;
+    src: url("../../Harabara.ttf");
+}
+
+
+
+.home-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     
+}
+
+.home-navbar{
+    grid-column: 1/span 2;
+}
+
+
+
+.welcome-text{
+    font-family:harabara;
+    font-size: 3em;
+    width: 510px;
+    /* grid-column: 1/2; */
+    justify-self: end;
+    
+}
+
+.welcome-head{
+    font-size: 67px;
+}
+
+.welcome-words{
+    font-size: 22px;
+    font-family: 'Work Sans';
+}
+
+.celestia-logo-home{
+    height: 500px;
+}
