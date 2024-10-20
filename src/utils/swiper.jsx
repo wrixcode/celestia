@@ -27,12 +27,12 @@ const Swipermodule = () => {
         </h1>
       </div>
       <div className="events-body mt-12 relative w-full">
-        <div className="absolute inset-0 flex  z-10 space-x-4 justify-around">
+        <div className="absolute inset-0 flex  z-10 space-x-4 justify-between md:justify-around">
           <button ref={prevRef}>
-            <ArrowLeft size={30} className="bg-black p-1 rounded-full"/>
+            <ArrowLeft size={30} className="bg-black p-1 rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]"/>
           </button>
           <button ref={nextRef}>
-            <ArrowRight size={30} className="bg-black p-1 rounded-full"/>
+            <ArrowRight size={30} className="bg-black p-1 rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]"/>
           </button>
         </div>
         {/* slides */}
