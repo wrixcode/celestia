@@ -1,8 +1,8 @@
 
 import Navbar from "../utils/Navbar.jsx";
 import celestia_logo from "../assets/logocel.svg"
-import Swipermodule from "../utils/swiper.jsx";
 import rocket_lanuch from "../assets/images/rocket.svg";
+import Carousel from "../utils/carousel.jsx";
 
 const Home = () => {
   return (
@@ -38,7 +38,7 @@ const Home = () => {
       <div className="flex justify-center">
         <div className=" w-[90%] md:w-[70%]">
           {/* events */}
-          <Swipermodule/>
+          <Carousel/>
         </div>
       </div>
     </>
