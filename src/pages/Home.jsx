@@ -3,8 +3,8 @@ import Navbar from "../utils/Navbar.jsx";
 import celestia_logo from "../assets/logocel.svg"
 import rocket_lanuch from "../assets/images/rocket.svg";
 import Carousel from "../utils/carousel.jsx";
-import vision_content from "../assets/vision-content.svg"
 import mission_content from "../assets/mission-content.svg"
+import Vision from "../utils/Vision.jsx";
 
 
 
@@ -63,12 +63,7 @@ const Home = () => {
       </div>
 
       <div className="vision">
-        <div className="vision-head flex justify-center text-5xl my-20">
-          Our Vision
-        </div>
-        <div className="vision-content flex justify-center mb-20">
-        <img className="celestia-logo-home object-fill " src={vision_content} alt="" />
-        </div>
+        <Vision/>
       </div>
 
       <div className="mission">
