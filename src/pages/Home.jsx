@@ -4,7 +4,9 @@ import celestia_logo from "../assets/logocel.svg"
 import rocket_lanuch from "../assets/images/rocket.svg";
 import Carousel from "../utils/carousel.jsx";
 import mission_content from "../assets/mission-content.svg"
+import mission_mobile from "../assets/images/mission.svg"
 import Vision from "../utils/Vision.jsx";
+import Testimonials from "../utils/Testimonials.jsx";
 
 
 
@@ -45,6 +47,8 @@ const Home = () => {
           <Carousel/>
         </div>
       </div>
+
+      
       <div className="what-is-celestia ">
         <div className="what-head flex justify-center  my-10 font-bold text-4xl md:text-7xl">
               What Is Celestia
@@ -61,18 +65,24 @@ const Home = () => {
 
         </div>
       </div>
-
+      {/* vision */}
       <div className="vision">
         <Vision/>
       </div>
-
+       {/* mission */}
       <div className="mission">
         <div className="mission-head flex justify-center text-5xl mt-40 mb-20">
           Our Mission
         </div>
-        <div className="mission-content flex justify-center">
+        <div className="mission-content hidden md:flex justify-center ">
           <img className="celestia-logo-home object-fill " src={mission_content} alt="" />
         </div>
+        <div className="mission-content flex justify-center md:hidden">
+          <img className="celestia-logo-home object-fill " src={mission_mobile} alt="" />
+        </div>
+      </div>
+      <div className="testimonials mt-24 md:mt-10">
+         <Testimonials/>
       </div>
     </>
   );

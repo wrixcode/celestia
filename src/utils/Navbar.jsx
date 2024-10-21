@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="home-navbar sticky w-full top-5 z-20">
+    <div className="home-navbar  fixed top-5 z-50  w-[90%] md:w-[68%] ">
       {/* desktop */}
       <div className="hidden md:flex justify-between items-center py-2 px-3 bg-[#090909] rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
         {/* Navbar */}
