@@ -3,7 +3,6 @@ import Navbar from "../utils/Navbar.jsx";
 import celestia_logo from "../assets/logocel.svg"
 import rocket_lanuch from "../assets/images/rocket.svg";
 import Carousel from "../utils/carousel.jsx";
-import Swipermodule from "../utils/swiper.jsx";
 import vision_content from "../assets/vision-content.svg"
 import mission_content from "../assets/mission-content.svg"
 
@@ -47,14 +46,14 @@ const Home = () => {
         </div>
       </div>
       <div className="what-is-celestia ">
-        <div className="what-head text-7xl flex justify-center  my-10">
+        <div className="what-head flex justify-center  my-10 font-bold text-4xl md:text-7xl">
               What Is Celestia
         </div>
         <div className="what-logo flex justify-center m-10">
         <img className="celestia-logo-home object-fill w-[250px] " src={celestia_logo} alt="" />
         </div>
-        <div className="what-text text-center  flex justify-center text-xl">
-          <div className="w-[1000px]">
+        <div className="what-text text-center  flex justify-center text-md md:text-xl font-semibold">
+          <div className="w-[1000px] px-5">
             <p className="mb-10">Celestia is an association we, the CSE department of Eranad Knowledge City Technical Campus created to push the boundaries of what we can achieve in Computer Science and Engineering</p>
             
             <p className="mb-20">Its vision is to ensure that students can explore and master the field, gain the skills for high-end jobs before they graduate, and stay connected to the community even after graduation.</p>
