@@ -17,7 +17,7 @@ const Home = () => {
           {/* <div className="home-navbar"><Navbar/></div> */}
           <Navbar />
           <div className="herosection grid grid-cols-1 grid-rows-2 md:flex justify-between items-center relative top-4 md:top-10">
-            <div className="welcome-text h-ful  flex-col">
+            <div className="welcome-text h-ful  flex-col ">
               <section className='welcome-head text-6xl md:text-7xl'>
                 Innovate. <span className="text-[#F15E22]">Code</span>. <br></br>
                 Elevate
