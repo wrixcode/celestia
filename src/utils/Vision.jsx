@@ -11,7 +11,7 @@ const Vision = () => {
             <div className="vision-content w-full  grid grid-cols-1  grid-rows-3  md:flex ">
                 {
                     vision.map((item, index) => (
-                        <div className={`cards bg-[#D9D9D9] text-black rounded-xl mx-20 my-10 md:my-0 md:mx-16 ${index === 1 && 'md:scale-125'}`} key={index}>
+                        <div className={`cards bg-[#D9D9D9] text-black rounded-xl mx-5 my-10 md:my-0 md:mx-16 ${index === 1 && 'md:scale-125'}`} key={index}>
                             <h1 className="font-bold text-3xl py-10 text-center">{item.title}</h1>
                             <p className="pb-16 px-10 text-center ">{item.dec}</p>
                         </div>
@@ -24,4 +24,3 @@ const Vision = () => {
 }
 
 export default Vision;
-
