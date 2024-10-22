@@ -1,7 +1,6 @@
 import logo from "../assets/logo.svg";
 import { useState } from "react";
 import navicon from "../assets/images/navicon.svg";
-import { X } from "react-feather";
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("home");
