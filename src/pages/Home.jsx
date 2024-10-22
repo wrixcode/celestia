@@ -3,8 +3,10 @@ import Navbar from "../utils/Navbar.jsx";
 import celestia_logo from "../assets/logocel.svg"
 import rocket_lanuch from "../assets/images/rocket.svg";
 import Carousel from "../utils/carousel.jsx";
-import vision_content from "../assets/vision-content.svg"
 import mission_content from "../assets/mission-content.svg"
+import mission_mobile from "../assets/images/mission.svg"
+import Vision from "../utils/Vision.jsx";
+import Testimonials from "../utils/Testimonials.jsx";
 
 
 
@@ -15,7 +17,7 @@ const Home = () => {
         <div className="home-head space-y-20 w-[90%] md:w-[70%]  md:h-screen" id="home">
           {/* <div className="home-navbar"><Navbar/></div> */}
           <Navbar />
-          <div className="herosection grid grid-cols-1 grid-rows-2 md:flex justify-between items-center relative top-4 md:top-10">
+          <div className="herosection grid grid-cols-1 grid-rows-2 md:flex justify-between items-center relative top-4 md:top-28">
             <div className="welcome-text h-ful  flex-col ">
               <section className='welcome-head text-6xl md:text-7xl'>
                 Innovate. <span className="text-[#F15E22]">Code</span>. <br></br>
@@ -45,6 +47,8 @@ const Home = () => {
           <Carousel/>
         </div>
       </div>
+
+      
       <div className="what-is-celestia ">
         <div className="what-head flex justify-center  my-10 font-bold text-4xl md:text-7xl">
               What Is Celestia
@@ -61,23 +65,24 @@ const Home = () => {
 
         </div>
       </div>
-
+      {/* vision */}
       <div className="vision">
-        <div className="vision-head flex justify-center text-5xl my-20">
-          Our Vision
-        </div>
-        <div className="vision-content flex justify-center mb-20">
-        <img className="celestia-logo-home object-fill " src={vision_content} alt="" />
-        </div>
+        <Vision/>
       </div>
-
+       {/* mission */}
       <div className="mission">
         <div className="mission-head flex justify-center text-5xl mt-40 mb-20">
           Our Mission
         </div>
-        <div className="mission-content flex justify-center">
+        <div className="mission-content hidden md:flex justify-center ">
           <img className="celestia-logo-home object-fill " src={mission_content} alt="" />
         </div>
+        <div className="mission-content flex justify-center md:hidden">
+          <img className="celestia-logo-home object-fill " src={mission_mobile} alt="" />
+        </div>
+      </div>
+      <div className="testimonials mt-24 md:mt-10">
+         <Testimonials/>
       </div>
     </>
   );
