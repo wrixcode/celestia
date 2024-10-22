@@ -51,9 +51,9 @@ const Footer = () => {
                         </div>
                         <p className="text-[20px] text-orange-500">Social media links</p>
                         <div className="social-media-icons flex space-x-10">
-                            <a href="#"><Instagram/> </a>
-                            <a href="#"><Linkedin/></a>
-                            <a href="#"><Twitter/></a>
+                            <a href="https://www.instagram.com/_celesti_a/" target="_blank"><Instagram/> </a>
+                            <a href="#"  target="_blank"><Linkedin/></a>
+                            <a href="#"  target="_blank"><Twitter/></a>
                         </div>
                     </div>
                 </div>

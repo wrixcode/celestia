@@ -32,9 +32,9 @@ const Carousel = () => {
   };
 
   return (
-    <div className="events-container w-full m-6">
+    <div className="events-container w-full">
       <div className="events-head text-center">
-        <h1 className="font-bold text-center text-5xl">
+        <h1 className="font-bold text-center text-4xl md:text-5xl">
           Recent <span className="text-[#F15E22]">Events</span>
         </h1>
       </div>

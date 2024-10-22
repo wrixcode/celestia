@@ -28,7 +28,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <>
-      <h2 className="text-white text-center text-4xl font-semibold mb-14 md:text-5xl">
+      <h2 className="text-white text-center text-4xl font-bold mb-14 md:text-5xl">
         Testimonials
       </h2>
       <div className="w-full flex justify-center">

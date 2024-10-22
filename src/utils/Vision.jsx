@@ -7,7 +7,7 @@ const Vision = () => {
 
     return (
         <>
-            <div className="vision-head text-center text-5xl my-20">
+            <div className="vision-head text-center text-5xl my-20 font-bold">
                 Our Vision
             </div>
 

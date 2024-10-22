@@ -1,6 +1,7 @@
 import logo from "../assets/logo.svg";
 import { useState } from "react";
 import navicon from "../assets/images/navicon.svg";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [activeItem, setActiveItem] = useState("home");
@@ -14,16 +15,17 @@ const Navbar = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+
   return (
-    <div className="home-navbar  fixed top-5 z-50  w-fit md:w-[68%] ">
+    <div className="home-navbar  fixed top-5 z-50  w-[90%] md:w-[68%] ">
       {/* desktop */}
       <div className="hidden lg:flex justify-between items-center bg-black py-2 px-3 rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
         {/* Navbar */}
         <nav className="flex justify-between w-full">
           <div className="text-3xl font-bold mt-1">
-            <a href="#home">
+            <Link href="/">
               <img src={logo} alt="logo" />
-            </a>
+            </Link>
           </div>
           <ul className="flex space-x-6 text-lg font-semibold">
             {["home", "about", "events", "team", "contact", "gallery"].map((item) => (
@@ -33,9 +35,11 @@ const Navbar = () => {
                   }`}
                 onClick={() => handleActive(item)}
               >
-                <span className="list-span-navbar ">
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-                </span>
+                <Link to={item} spy={true} smooth={true} offset={-100} duration={500}  >
+                  <span className="list-span-navbar ">
+                    {item.charAt(0).toUpperCase() + item.slice(1)}
+                  </span>
+                </Link>
               </li>
             ))}
           </ul>
@@ -78,7 +82,9 @@ const Navbar = () => {
                   className={`cursor-pointer m-2 hover:text-[#F15E22] `}
                   onClick={() => handleActive(item)}
                 >
-                  {item.charAt(0).toUpperCase() + item.slice(1)}
+                  <Link to={item} spy={true} smooth={true} offset={-100}  duration={500}>
+                    {item.charAt(0).toUpperCase() + item.slice(1)}
+                  </Link>
                 </div>
               ))}
             </div>

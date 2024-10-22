@@ -15,7 +15,7 @@ import Footer from "../utils/Footer.jsx";
 const Home = () => {
   return (
     <>
-      <div className="home-container flex justify-center">
+      <div className="flex justify-center" id="home">
         <div className="home-head space-y-20 w-[90%] md:w-[70%]  lg:h-screen" id="home">
           {/* <div className="home-navbar"><Navbar/></div> */}
           <Navbar />
@@ -37,21 +37,21 @@ const Home = () => {
                 <p className="text-xl md:text-2xl">Explore Events</p>
               </button>
             </div>
-            <div className="celestia-logo md:flex justify-center items-center md:relative md:top-28 lg:top-0 lg:block">
+            <div className="celestia-logo md:flex justify-center items-center md:relative md:top-14 md:mb-10 lg:top-0 lg:block">
               <img className="celestia-logo-home object-fill relative bottom-10 w-fit" src={celestia_logo} alt="" />
             </div>
           </div>
         </div>
       </div>
       <div className="flex justify-center">
-        <div className=" w-[90%] md:w-[70%]">
+        <div className=" w-[80%]">
           {/* events */}
           <Carousel/>
         </div>
       </div>
 
       
-      <div className="what-is-celestia ">
+      <div className="what-is-celestia" id="about">
         <div className="what-head flex justify-center  my-10 font-bold text-4xl md:text-7xl">
               What Is Celestia
         </div>
@@ -62,7 +62,7 @@ const Home = () => {
           <div className="w-[1000px] px-5">
             <p className="mb-10">Celestia is an association we, the CSE department of Eranad Knowledge City Technical Campus created to push the boundaries of what we can achieve in Computer Science and Engineering</p>
             
-            <p className="mb-20">Its vision is to ensure that students can explore and master the field, gain the skills for high-end jobs before they graduate, and stay connected to the community even after graduation.</p>
+            <p className="mb-8 lg:mb-20">Its vision is to ensure that students can explore and master the field, gain the skills for high-end jobs before they graduate, and stay connected to the community even after graduation.</p>
           </div>
 
         </div>
@@ -73,7 +73,7 @@ const Home = () => {
       </div>
        {/* mission */}
       <div className="mission">
-        <div className="mission-head flex justify-center text-5xl mt-40 mb-20">
+        <div className="mission-head flex justify-center text-5xl  mb-10 mt-24 md:mt-16 lg:mt-24 font-bold">
           Our Mission
         </div>
         <div className="mission-content hidden md:flex justify-center ">
@@ -91,7 +91,7 @@ const Home = () => {
       <div className="community">
         <Community/>
       </div>
-      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[50px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
+      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[50px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
         <Footer/>
       </div>
        <p className="py-3 text-center">Copyright @2024 Celestia</p>
