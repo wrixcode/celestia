@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <div className="home-container flex justify-center">
-        <div className="home-head space-y-20 w-[90%] md:w-[70%]  md:h-screen" id="home">
+        <div className="home-head space-y-20 w-[90%] md:w-[70%]  lg:h-screen" id="home">
           {/* <div className="home-navbar"><Navbar/></div> */}
           <Navbar />
           <div className="herosection grid grid-cols-1 grid-rows-2  lg:flex justify-between items-center relative top-4 lg:top-28">
