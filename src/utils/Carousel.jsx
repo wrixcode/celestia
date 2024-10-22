@@ -10,6 +10,7 @@ import event_image3 from "../assets/images/event3.png";
 import { useRef } from "react";
 import { ArrowLeft, ArrowRight } from "react-feather";
 
+
 const events = [
   { src: event_image1, description: "Description of image 1" },
   { src: event_image2, description: "Description of image 2" },
@@ -59,7 +60,7 @@ const Carousel = () => {
           speed={800}
           spaceBetween={40}
           autoplay={{
-            delay: 4000,
+            delay: 2000,
             disableOnInteraction: false,
           }}
           coverflowEffect={{

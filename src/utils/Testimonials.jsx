@@ -1,30 +1,27 @@
 import anu from "../assets/avathar/anu.jpg";
-import malik from "../assets/avathar/malik.jpg";
-import raja from "../assets/avathar/raja.jpg";
+import principal from "../assets/avathar/principal.jpg";
+import shameel from "../assets/avathar/shameel.jpg";
 const testimonials = [
   {
     id: 1,
     name: "Ms. Anu K S",
     title: "HOD, CSE dept",
     image: anu, 
-    quote:
-      "As the HOD of CSE, I’m proud to support Celestia, an exceptional platform driving student innovation and technical excellence.",
+    quote:"As the HOD of CSE, I proudly support Celestia, an exceptional platform that fosters student innovation and drives technical excellence, empowering our students to reach their full potential in technology.",
   },
   {
     id: 2,
-    name: "Dr. Malik",
-    title: "Assistent professor",
-    image: malik, 
-    quote:
-      "As the HOD of CSE, I’m proud to support Celestia, an exceptional platform driving student innovation and technical excellence.",
+    name: "Dr. Sobha P",
+    title: "Head- Corporate Relation and Student Affairsr",
+    image: principal, 
+    quote: "As principal of EKC, I proudly acknowledge the CSE department associations for empowering students to explore computer science, focusing on academic growth, teamwork, innovation, and community engagement through various initiatives.",
   },
   {
     id: 3,
-    name: "Dr. Raja",
-    title: "Computer Science",
-    image: raja,
-    quote:
-      "As the HOD of CSE, I’m proud to support Celestia, an exceptional platform driving student innovation and technical excellence.",
+    name: "Shameel K",
+    title: "Head- Corporate Relation and Student Affairs",
+    image: shameel,
+    quote: "Celestia drives innovation and excellence! As Head of Student Affairs at Eranad Knowledge City, I’ve witnessed students excel in competitions, workshops etc, displaying exceptional leadership and dedication.",
   },
 ];
 
@@ -51,17 +48,17 @@ const Testimonials = () => {
           <div className="relative top-[-60px]">
           <h3 className="text-xl font-bold">{testimonial.name}</h3>
             <p className="text-xs font-semibold">{testimonial.title}</p>
-            <p className="mt-4 text-[#020000] font-semibold">“{testimonial.quote}  ”</p>
+            <p className="mt-4 text-[#020000] font-semibold ">“{testimonial.quote}  ”</p>
           </div>
           </div>
         ))}
       </div>
       </div>
-      <div className="flex justify-center mt-6">
+      {/* <div className="flex justify-center mt-6">
         <span className="h-2 w-2 bg-gray-500 rounded-full mx-1"></span>
         <span className="h-2 w-2  bg-red-500  rounded-full mx-1"></span>
         <span className="h-2 w-2 bg-gray-500 rounded-full mx-1"></span>
-      </div>
+      </div> */}
     </>
   );
 };

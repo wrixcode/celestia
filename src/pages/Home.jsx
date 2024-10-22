@@ -7,6 +7,8 @@ import mission_content from "../assets/mission-content.svg"
 import mission_mobile from "../assets/images/mission.svg"
 import Vision from "../utils/Vision.jsx";
 import Testimonials from "../utils/Testimonials.jsx";
+import Community from "../utils/Community.jsx";
+import Footer from "../utils/Footer.jsx";
 
 
 
@@ -81,9 +83,18 @@ const Home = () => {
           <img className="celestia-logo-home object-fill " src={mission_mobile} alt="" />
         </div>
       </div>
+      {/* Testimonials */}
       <div className="testimonials mt-24 md:mt-10">
          <Testimonials/>
       </div>
+      {/* community  */}
+      <div className="community">
+        <Community/>
+      </div>
+      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[50px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
+        <Footer/>
+      </div>
+       <p className="py-3 text-center">Copyright @2024 Celestia</p>
     </>
   );
 };
