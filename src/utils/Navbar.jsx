@@ -15,9 +15,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="home-navbar  fixed top-5 z-50  w-[90%] md:w-[68%] ">
+    <div className="home-navbar  fixed top-5 z-50  w-fit md:w-[68%] ">
       {/* desktop */}
-      <div className="hidden md:flex justify-between items-center bg-black py-2 px-3 rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
+      <div className="hidden lg:flex justify-between items-center bg-black py-2 px-3 rounded-full shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
         {/* Navbar */}
         <nav className="flex justify-between w-full">
           <div className="text-3xl font-bold mt-1">

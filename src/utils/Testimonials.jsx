@@ -32,7 +32,7 @@ const Testimonials = () => {
         Testimonials
       </h2>
       <div className="w-full flex justify-center">
-      <div className="grid gap-32 mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 w-full flex flex-wrap justify-center items-center gap-20">
         {testimonials.map((testimonial) => (
           <div
             key={testimonial.id}
