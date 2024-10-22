@@ -1,4 +1,4 @@
-import desktop from "../assets/images/community.svg";
+import desktop from "../assets/images/Community.svg";
 const Community = () => {
     return (
         <>
