@@ -28,8 +28,8 @@ const Home = () => {
               <section className="welcome-words text-xl md:text-2xl font-semibold font-sans">
                 <br />
                 Welcome to <span className="font-bold">Celestia</span>,<br />
-                where computer science students ,<br />
-                collaborate, <span className="font-bold">innovate</span>, and <span className="font-bold">create</span> solutions <br />
+                where computer science students<br />
+                collaborate, <span className="font-bold">innovate</span>, and <span className="font-bold">create</span> solutions <br className="hidden lg:block" />
                 that shape the future of technology
               </section>
               <Link to="events" spy={true} smooth={true} offset={-100} duration={500} >
@@ -63,7 +63,6 @@ const Home = () => {
         <div className="what-text text-center  flex justify-center text-md md:text-xl font-semibold">
           <div className="w-[1000px] px-5">
             <p className="mb-10">Celestia is an association we, the CSE department of Eranad Knowledge City Technical Campus created to push the boundaries of what we can achieve in Computer Science and Engineering</p>
-
             <p className="mb-8 lg:mb-20">Its vision is to ensure that students can explore and master the field, gain the skills for high-end jobs before they graduate, and stay connected to the community even after graduation.</p>
           </div>
 
@@ -93,7 +92,7 @@ const Home = () => {
       <div className="community">
         <Community />
       </div>
-      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
+      <div className="footer w-full flex justify-around items-center relative top-[-20px] md:top-0 py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
         <Footer />
       </div>
       <p className="py-3 text-center text-sm">Copyright @2024 Celestia</p>
