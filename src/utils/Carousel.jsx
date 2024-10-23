@@ -12,9 +12,9 @@ import { ArrowLeft, ArrowRight } from "react-feather";
 
 
 const events = [
-  { src: event_image1, description: "Description of image 1" },
-  { src: event_image2, description: "Description of image 2" },
-  { src: event_image3, description: "Description of image 3" },
+  { src: event_image1, description: "Logo desgin competition" , "date": "2/10/24"},
+  { src: event_image2, description: "Two days workshop on Al and ML" , "date": "26/09/24 and 27/09/24" },
+  { src: event_image3, description: "Logo desgin competition winner" , "date": "7/10/24"},
 ];
 const Carousel = () => {
   const swiperRef = useRef(null);
@@ -85,9 +85,13 @@ const Carousel = () => {
           }}
           className="swiper_container rounded-lg"
         >
-          {events.map((image, index) => (
+          {events.map((items, index) => (
             <SwiperSlide key={index}>
-              <img src={image.src} alt={`slide_image_${index}`} />
+              <img  src={items.src} alt={`slide_image_${index}`} />
+              <div className="description bg-gradient-to-r from-[#0E1320] to-[#425B72]  opacity-80 rounded-lg absolute top-60 md:top-44 lg:top-[350px] flex-col justify-center items-center space-y-3 p-3  w-full text-center">
+                <p className="font-bold text-sm md:text-[15px] lg:text-lg">{items.description}</p>
+                <p className="from-transparent spaci">{items.date}</p>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

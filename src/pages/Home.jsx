@@ -9,7 +9,7 @@ import Vision from "../utils/Vision.jsx";
 import Testimonials from "../utils/Testimonials.jsx";
 import Community from "../utils/Community.jsx";
 import Footer from "../utils/Footer.jsx";
-
+import { Link } from "react-scroll";
 
 
 const Home = () => {
@@ -32,10 +32,12 @@ const Home = () => {
                 collaborate, <span className="font-bold">innovate</span>, and <span className="font-bold">create</span> solutions <br />
                 that shape the future of technology
               </section>
-              <button className="flex justify-around items-center bg-black w-60 md:w-72 p-2 my-14 md:my-8 rounded-xl shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
-                <img src={rocket_lanuch} alt="" className="w-10 h-10" />
-                <p className="text-xl md:text-2xl">Explore Events</p>
-              </button>
+              <Link to="events" spy={true} smooth={true} offset={-100} duration={500} >
+                <button className="flex justify-around items-center bg-black w-60 md:w-72 p-2 my-14 md:my-8 rounded-xl shadow-[0_0px_10px_rgba(255,255,255,0.62)]">
+                  <img src={rocket_lanuch} alt="" className="w-10 h-10" />
+                  <p className="text-xl md:text-2xl">Explore Events</p>
+                </button>
+              </Link>
             </div>
             <div className="celestia-logo md:flex justify-center items-center md:relative md:top-14 md:mb-10 lg:top-0 lg:block">
               <img className="celestia-logo-home object-fill relative bottom-10 w-fit" src={celestia_logo} alt="" />
@@ -43,25 +45,25 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center" id="events">
         <div className=" w-[80%]">
           {/* events */}
-          <Carousel/>
+          <Carousel />
         </div>
       </div>
 
-      
+
       <div className="what-is-celestia" id="about">
         <div className="what-head flex justify-center  my-10 font-bold text-4xl md:text-7xl">
-              What Is Celestia
+          What Is Celestia
         </div>
         <div className="what-logo flex justify-center m-10">
-        <img className="celestia-logo-home object-fill w-[250px] " src={celestia_logo} alt="" />
+          <img className="celestia-logo-home object-fill w-[250px] " src={celestia_logo} alt="" />
         </div>
         <div className="what-text text-center  flex justify-center text-md md:text-xl font-semibold">
           <div className="w-[1000px] px-5">
             <p className="mb-10">Celestia is an association we, the CSE department of Eranad Knowledge City Technical Campus created to push the boundaries of what we can achieve in Computer Science and Engineering</p>
-            
+
             <p className="mb-8 lg:mb-20">Its vision is to ensure that students can explore and master the field, gain the skills for high-end jobs before they graduate, and stay connected to the community even after graduation.</p>
           </div>
 
@@ -69,9 +71,9 @@ const Home = () => {
       </div>
       {/* vision */}
       <div className="vision">
-        <Vision/>
+        <Vision />
       </div>
-       {/* mission */}
+      {/* mission */}
       <div className="mission">
         <div className="mission-head flex justify-center text-5xl  mb-10 mt-24 md:mt-16 lg:mt-24 font-bold">
           Our Mission
@@ -85,16 +87,16 @@ const Home = () => {
       </div>
       {/* Testimonials */}
       <div className="testimonials mt-24 md:mt-10">
-         <Testimonials/>
+        <Testimonials />
       </div>
       {/* community  */}
       <div className="community">
-        <Community/>
+        <Community />
       </div>
-      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[50px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
-        <Footer/>
+      <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
+        <Footer />
       </div>
-       <p className="py-3 text-center">Copyright @2024 Celestia</p>
+      <p className="py-3 text-center text-sm">Copyright @2024 Celestia</p>
     </>
   );
 };

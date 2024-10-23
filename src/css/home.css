@@ -46,7 +46,7 @@
 
 .swiper-slide img {
   width: 100%;
-    height: auto;
+  height: 26;
   object-fit: contain;
   filter: grayscale(1);
 }
@@ -54,6 +54,14 @@
 .swiper-slide-active img {
   filter: none;
   transform: scale(1.1);
+}
+
+.swiper-slide .description{
+   display: none;
+}
+
+.swiper-slide-active .description{
+  display: flex;
 }
 
 .swiper-slide-active:hover img {
@@ -93,4 +101,20 @@
 /* shadow-[0_2hover:5px_20px_0_rgba(255,255,255,0.62)] */
 .list-span-navbar:hover{
   text-shadow: 0px 15px 10px white,0px 15px 15px white ;
+}
+
+
+/* disable acces of users  */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }
