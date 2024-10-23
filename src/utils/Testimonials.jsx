@@ -12,7 +12,7 @@ const testimonials = [
   {
     id: 2,
     name: "Dr. Sobha P",
-    title: "Head- Corporate Relation and Student Affairsr",
+    title: "Principal",
     image: principal, 
     quote: "As principal of EKC, I proudly acknowledge the CSE department associations for empowering students to explore computer science, focusing on academic growth, teamwork, innovation, and community engagement through various initiatives.",
   },
