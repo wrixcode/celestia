@@ -1,4 +1,4 @@
-import anu from "../assets/avathar/anu.jpg";
+import anu from "../assets/avathar/anu.jpeg";
 import principal from "../assets/avathar/principal.jpg";
 import shameel from "../assets/avathar/shameel.jpg";
 const testimonials = [

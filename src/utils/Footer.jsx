@@ -53,7 +53,7 @@ const Footer = () => {
                         <p className="text-[15px] md:text-[18px] text-orange-500">Social media links</p>
                         <div className="social-media-icons flex space-x-10">
                             <a  href="https://www.instagram.com/_celesti_a/" target="_blank"><Instagram size={20}/> </a>
-                            <a href="https://www.linkedin.com/in/celestia-ekctc-6b6950334/"  target="_blank"><Linkedin size={20}/></a>
+                            <a href="https://www.linkedin.com/company/celestia-ekctc"  target="_blank"><Linkedin size={20}/></a>
                             <a href="https://x.com/CelestiaEKCTC"  target="_blank"><Twitter size={20}/></a>
                         </div>
                     </div>
