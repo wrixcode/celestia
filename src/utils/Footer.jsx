@@ -1,15 +1,15 @@
 import { Instagram, Linkedin, Mail, Phone, Twitter } from "react-feather";
-import Footerlogo from "../assets/images/footerlogo.svg"
-import { Link } from "react-scroll";
+import Footerlogo from "../assets/images/footerlogo.svg";
+import { NavLink } from "react-router-dom";
 
 
 const userful = [
-    { "title": "Home", "href": "" },
-    { "title": "About", "href": "" },
-    { "title": "Events", "href": "" },
-    { "title": "Team", "href": "" },
-    { "title": "Contact", "href": "" },
-    { "title": "Gallery", "href": "" },
+    { "title": "Home", "href": "/" },
+    { "title": "About", "href": "/about" },
+    { "title": "Events", "href": "/events" },
+    { "title": "Team", "href": "/team" },
+    { "title": "Contact", "href": "/contact" },
+    { "title": "Gallery", "href": "/gallery" },
 ]
 const Footer = () => {
     return (
@@ -28,7 +28,7 @@ const Footer = () => {
                         {
                             userful.map((item, index) => (
                                 <div key={index} className="cursor-pointer">
-                                    <Link  to={item.title.toLowerCase()} spy={true} smooth={true} offset={-100} duration={500}  className="text-orange-500 hover:text-orange-800">{item.title}</Link>
+                                    <NavLink  to={item.href}  className="text-orange-500 hover:text-orange-800">{item.title}</NavLink>
                                 </div>
                             ))
                         }
@@ -59,7 +59,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

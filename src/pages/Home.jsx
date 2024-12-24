@@ -13,10 +13,11 @@ import { Link } from "react-scroll";
 
 
 const Home = () => {
+
   return (
     <>
       <div className="flex justify-center" id="home">
-        <div className="home-head space-y-20 w-[90%] md:w-[70%]  lg:h-screen" id="home">
+        <div className="home-head space-y-20 w-[90%] md:w-[70%]  lg:h-screen">
           {/* <div className="home-navbar"><Navbar/></div> */}
           <Navbar />
           <div className="herosection grid grid-cols-1 grid-rows-2  lg:flex justify-between items-center relative top-4 lg:top-28">
@@ -92,10 +93,10 @@ const Home = () => {
       <div className="community">
         <Community />
       </div>
-      <div className="footer w-full flex justify-around items-center relative top-[-20px] md:top-0 py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]" id="contact">
+      <div className="footer w-full flex justify-around items-center relative top-[-20px] md:top-0 py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
         <Footer />
       </div>
-      <p className="py-3 text-center text-sm">Copyright @2024 Celestia</p>
+      <p className="py-3 text-center text-sm">Copyright @{new Date().getFullYear()} Celestia</p>
     </>
   );
 };

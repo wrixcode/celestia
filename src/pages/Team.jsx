@@ -1,4 +1,5 @@
-import React from "react";
+import Footer from "../utils/Footer";
+import Navbar from "../utils/Navbar";
 
 const Team = () => {
   const teamMembers = Array(12).fill({
@@ -8,7 +9,11 @@ const Team = () => {
   });
 
   return (
-    <div className="bg-gray-900 min-h-screen flex flex-col items-center py-10">
+    <>
+    <div className="flex justify-center" id="teams">
+    <div className="home-head space-y-20 w-[90%] md:w-[70%]" >
+    <Navbar/>
+    <div className="min-h-screen flex flex-col items-center py-10">
       <h1 className="text-white text-center text-4xl font-bold mb-14 md:text-5xl">Our Team</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {teamMembers.map((member, index) => (
@@ -27,6 +32,14 @@ const Team = () => {
         ))}
       </div>
     </div>
+    </div>
+    </div>
+
+    <div className="footer w-full flex justify-around items-center  py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
+        <Footer/>
+      </div>
+      <p className="py-3 text-center text-sm">Copyright @{new Date().getFullYear()} Celestia</p>
+    </>
   );
 };
 

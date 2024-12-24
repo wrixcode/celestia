@@ -1,5 +1,7 @@
 import React from 'react'
 import { toast } from 'react-toastify';
+import Navbar from '../utils/Navbar';
+import Footer from '../utils/Footer';
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
@@ -28,25 +30,30 @@ const Contact = () => {
     }
   };
   return (
-    
-    <div
-    initial={{opacity:0,x:200}}
-    animate={{opacity:1,y:0}}
-    transition={{duration:1}}
-    whileInView={{opacity:1,x:0}}
-    >
-         <h1 id='contact' className='text-white text-center text-4xl font-bold  md:text-5xl'>Contact Us</h1>
+    <>
+    <div className="flex justify-center" id="contact">
+    <div className="home-head space-y-20 w-[90%] md:w-[70%] lg:h-screen ">
+     <Navbar/>
+
+    <h1 className='text-white text-center text-5xl font-bold  relative top-2 md:top-7'>Contact Us</h1>
    
-    <form onSubmit={onSubmit} class="max-w-2xl mx-auto px-5 text-gray-600 pt-8">
-      <div class="flex flex-wrap">
-        <div class="w-full md:w-1/2 text-left">Your Name<input class="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="text" name="Name" placeholder="Your Name" required />
-        </div><div class="w-full md:w-1/2 text-left md:pl-4">Your Email<input class="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="email" name="Email" placeholder="Your Email" required=""/>
-        </div></div><div class="my-6 text-left">Message<textarea class="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none" name="Message" placeholder="Message" required="">
+    <form onSubmit={onSubmit} className="max-w-2xl mx-auto px-5 text-gray-600  md:pt-8">
+      <div className="flex flex-wrap text-white">
+        <div className="w-full md:w-1/2 text-left">Name<input className="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="text" name="Name" placeholder="Name" required />
+        </div><div className="w-full md:w-1/2 text-left md:pl-4">Email<input className="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="email" name="Email" placeholder="Email" required=""/>
+        </div></div><div className="my-6 text-left text-white">Message<textarea className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none" name="Message" placeholder="Message" required="">
           </textarea>
           </div>
-          <button class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-12 mb-10 rounded">{result ? result : "send message"}</button>
+          <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-12 mb-10 rounded">{result ? result : "send message"}</button>
           </form>
     </div>
+    </div>
+
+    <div className="footer  w-full flex justify-around items-center  py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
+     <Footer/>
+   </div>
+   <p className="py-3 text-center text-sm">Copyright @{new Date().getFullYear()} Celestia</p>
+    </>
   )
 }
 

@@ -8,3 +8,7 @@ html , body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+input, textarea{
+    color: black;
+}
