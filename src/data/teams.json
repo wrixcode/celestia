@@ -1,0 +1,305 @@
+{
+  "mainmemebers": [
+    {
+      "id": 1,
+      "name": "Abdul Vajid",
+      "image": "ttps://via.placeholder.com/150",
+      "position": "Secretery",
+      "git": "",
+      "linkdin": "",
+      "instagram": ""
+    },
+    {
+        "id": 2,
+        "name": "Muhammed Shaheel",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Treasurer",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 3,
+        "name": "Ansila Mol",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Join Secretary",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      }
+  ],
+  "othermembers": [
+    {
+        "id": 1,
+        "name": "Saneen",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 2,
+        "name": "Shibin",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 3,
+        "name": "Danish",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 4,
+        "name": "Sinan",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 5,
+        "name": "Hashila",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 6,
+        "name": "Akash",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Program Committee",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 7,
+        "name": "Nihal",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 8,
+        "name": "Saufeer",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 9,
+        "name": "Anwer",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 10,
+        "name": "Mazin",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 11,
+        "name": "Raniya",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 12,
+        "name": "Nifla",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Publicity Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 13,
+        "name": "Haneen",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Technical Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+     
+      {
+        "id": 14,
+        "name": "Fiyas",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Technical Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+     
+      {
+        "id": 15,
+        "name": "Danish",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Technical Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 16,
+        "name": "Sooraj",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Technical Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 17,
+        "name": "Shibil",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 18,
+        "name": "Sinan",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 19,
+        "name": "Ammar",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 20,
+        "name": "Najiya",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 21,
+        "name": "Sinan",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 22,
+        "name": "Sarhan",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Website Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 23,
+        "name": "Diya Sherin",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Development Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 24,
+        "name": "Naseem",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Development Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 25,
+        "name": "Anil Das",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Development Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 26,
+        "name": "Nahitha",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Development Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 27,
+        "name": "Hadi",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Documentation Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 28,
+        "name": "Naveena",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Documentation Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 29,
+        "name": "Haneen AG",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Documentation Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+      {
+        "id": 30,
+        "name": "Irfana",
+        "image": "ttps://via.placeholder.com/150",
+        "position": "Documentation Team",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      }
+  ]
+}
