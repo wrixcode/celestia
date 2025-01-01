@@ -9,7 +9,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch("https://celestia-api.onrender.com/gallery");
+        const response = await fetch("https://celestia-api.vercel.app/gallery/");
         if (!response.ok) {
           throw new Error("Failed to fetch images");
         }
