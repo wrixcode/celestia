@@ -1,14 +1,14 @@
 
-import Navbar from "../utils/Navbar.jsx";
+import Navbar from "../components/Navbar.jsx";
 import celestia_logo from "../assets/logocel.svg"
 import rocket_lanuch from "../assets/images/rocket.svg";
-import Carousel from "../utils/Carousel.jsx";
+import Carousel from "../components/Carousel.jsx";
 import mission_content from "../assets/mission-content.svg"
 import mission_mobile from "../assets/images/mission.svg"
-import Vision from "../utils/Vision.jsx";
-import Testimonials from "../utils/Testimonials.jsx";
-import Community from "../utils/Community.jsx";
-import Footer from "../utils/Footer.jsx";
+import Vision from "../components/Vision.jsx";
+import Testimonials from "../components/Testimonials.jsx";
+import Community from "../components/Community.jsx";
+import Footer from "../components/Footer.jsx";
 import { Link } from "react-scroll";
 
 
