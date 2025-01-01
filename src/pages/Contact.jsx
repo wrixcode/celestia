@@ -1,7 +1,7 @@
 import React from 'react'
 import { toast } from 'react-toastify';
-import Navbar from '../utils/Navbar';
-import Footer from '../utils/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 const Contact = () => {
   const [result, setResult] = React.useState("");
 

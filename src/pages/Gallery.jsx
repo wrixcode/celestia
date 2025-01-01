@@ -1,5 +1,5 @@
-import Footer from "../utils/Footer";
-import Navbar from "../utils/Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 
 const Gallery = () => {
