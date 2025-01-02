@@ -38,7 +38,7 @@ const Contact = () => {
      <div className="flex justify-center" id="contact">
      <div className="home-head space-y-20 w-[90%] md:w-[70%]">
     <Navbar/>
-    <div className="min-h-screen flex px-4 items-center justify-center bg-gray-900">
+    <div className="min-h-screen flex px-4 items-center justify-center">
       <div className="w-[800px] bg-[#2D4A60] rounded-2xl  shadow-lg p-6">
         <h2 className="text-2xl  md:text-5xl font-bold text-white mb-6">Contact Us</h2>
         <form onSubmit={onSubmit} className="space-y-4  ">
