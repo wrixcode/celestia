@@ -8,7 +8,7 @@ import Footer from "../components/Footer"
 const About = () => {
     return (
         <>
-            <div className="min-h-screen w-full flex flex-col space-y-10 justify-center items-center">
+            <div className="min-h-screen w-full flex flex-col space-y-10 justify-center items-center overflow-y-hidden">
                 <Navbar />
 
                 <div className="about-celestia w-full px-4 md:px-8 lg:px-16" id="about">
