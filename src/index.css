@@ -12,3 +12,7 @@ html , body{
 input, textarea{
     color: black;
 }
+body::-webkit-scrollbar{
+    width: 0;
+  }
+  

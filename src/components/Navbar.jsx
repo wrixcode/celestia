@@ -5,9 +5,20 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
+    if (isNavOpen) {
+  
+      setIsNavOpen(false);
+      setShowMenu(false);
+    } else {
+      
+      setIsNavOpen(true);
+      setTimeout(() => {
+        setShowMenu(true);
+      }, 300); 
+    }
   };
 
   const menuItems = [
@@ -30,7 +41,10 @@ const Navbar = () => {
         </div>
         <ul className="flex space-x-6 text-lg font-semibold">
           {menuItems.map((item) => (
-            <li key={item.name} className="cursor-pointer m-0 hover:-translate-y-1 transition duration-300 ease-in-out">
+            <li
+              key={item.name}
+              className="cursor-pointer m-0 hover:-translate-y-1 transition duration-300 ease-in-out"
+            >
               <NavLink
                 to={item.href}
                 className={({ isActive }) =>
@@ -47,26 +61,40 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <div className="flex justify-between w-full bg-black bg-opacity-5 rounded-3xl lg:hidden">
         <div className="bg-black rounded-2xl flex items-center justify-center px-3">
-          <img src={logo} alt="logo" className="w-28 h-10" />
+          <NavLink to={"/"}>
+            <img src={logo} alt="logo" className="w-28 h-10" />
+          </NavLink>
         </div>
         <div className="bg-orange-500 px-5 py-2 rounded-full">
           <div onClick={toggleNav} className="cursor-pointer flex-auto">
-            <img src={navicon} alt="navicon" className="w-8 rounded-lg transition-transform duration-700" />
+            <img
+              src={navicon}
+              alt="navicon"
+              className={`w-8 rounded-lg transition-transform duration-300 delay-0 ${
+                isNavOpen ? "rotate-90" : "rotate-0"
+              }`}
+            />
           </div>
         </div>
       </div>
 
-      {isNavOpen && (
-        <div className="w-full flex justify-end z-40 absolute top-16">
+      {showMenu && (
+        <div className="w-full flex justify-end z-40 absolute top-16 transition-all duration-500">
           <div className="flex flex-col items-center justify-center bg-black bg-opacity-80 text-white rounded-2xl mt-2 w-44">
             {menuItems.map((item) => (
-              <div key={item.name} className="cursor-pointer m-2 hover:text-[#F15E22]">
+              <div
+                key={item.name}
+                className="cursor-pointer m-2 hover:text-[#F15E22]"
+              >
                 <NavLink
                   to={item.href}
                   className={({ isActive }) =>
                     isActive ? "text-orange-500 font-bold" : "text-white"
                   }
-                  onClick={() => setIsNavOpen(false)} // Close menu on click
+                  onClick={() => {
+                    setIsNavOpen(false);
+                    setShowMenu(false);
+                  }}
                 >
                   {item.name}
                 </NavLink>

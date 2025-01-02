@@ -1,8 +1,13 @@
 import React from 'react'
 import { toast } from 'react-toastify';
+<<<<<<< HEAD
 import Navbar from '../utils/Navbar';
 import Footer from '../utils/Footer';
 import contactimg from '../assets/contact-img.png'
+=======
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+>>>>>>> 451bb0324a8bb527baf4f947a4e97c2843b7e6b6
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
@@ -11,7 +16,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "");
+    formData.append("access_key", "e8d310fa-18e7-46bf-baad-81095c797add");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

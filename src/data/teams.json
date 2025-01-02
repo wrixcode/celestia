@@ -1,38 +1,41 @@
 {
   "mainmemebers": [
+   
     {
-      "id": 1,
-      "name": "Abdul Vajid",
-      "image": "ttps://via.placeholder.com/150",
-      "position": "Secretery",
-      "git": "",
-      "linkdin": "",
-      "instagram": ""
-    },
-    {
-        "id": 2,
-        "name": "Muhammed Shaheel",
-        "image": "ttps://via.placeholder.com/150",
+        "id": 1,
+        "name": "Muhd Shaheel VP",
+        "image": "shaheel.jpg",
         "position": "Treasurer",
+        "git": "",
+        "linkdin": "",
+        "instagram": ""
+      },
+
+      {
+        "id": 2,
+        "name": "Abdul Vajid",
+        "image": "abdulvajid.jpg",
+        "position": "Secretery",
         "git": "",
         "linkdin": "",
         "instagram": ""
       },
       {
         "id": 3,
-        "name": "Ansila Mol",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Ansila Mol KP",
+        "image": "ansilamole.jpg",
         "position": "Join Secretary",
         "git": "",
         "linkdin": "",
         "instagram": ""
       }
+   
   ],
   "othermembers": [
     {
         "id": 1,
-        "name": "Saneen",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Muhd Saneen P",
+        "image": "saneen.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -41,7 +44,7 @@
       {
         "id": 2,
         "name": "Shibin",
-        "image": "ttps://via.placeholder.com/150",
+        "image": "shibin.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -49,8 +52,8 @@
       },
       {
         "id": 3,
-        "name": "Danish",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Danish KT",
+        "image": "danish.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -58,8 +61,8 @@
       },
       {
         "id": 4,
-        "name": "Sinan",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Mohd Sinan T",
+        "image": "sinan.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -67,8 +70,8 @@
       },
       {
         "id": 5,
-        "name": "Hashila",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Hashila AP",
+        "image": "hashila.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -77,7 +80,7 @@
       {
         "id": 6,
         "name": "Akash",
-        "image": "ttps://via.placeholder.com/150",
+        "image": "akash.jpg",
         "position": "Program Committee",
         "git": "",
         "linkdin": "",
@@ -94,8 +97,8 @@
       },
       {
         "id": 8,
-        "name": "Saufeer",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Saufeer NC",
+        "image": "saufeer.jpg",
         "position": "Publicity Team",
         "git": "",
         "linkdin": "",
@@ -103,8 +106,8 @@
       },
       {
         "id": 9,
-        "name": "Anwer",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Anwer Shamil KT",
+        "image": "anwer.jpg",
         "position": "Publicity Team",
         "git": "",
         "linkdin": "",
@@ -112,8 +115,8 @@
       },
       {
         "id": 10,
-        "name": "Mazin",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Mazin CH",
+        "image": "mazin.jpg",
         "position": "Publicity Team",
         "git": "",
         "linkdin": "",
@@ -121,8 +124,8 @@
       },
       {
         "id": 11,
-        "name": "Raniya",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Raniya K",
+        "image": "raniya.jpg",
         "position": "Publicity Team",
         "git": "",
         "linkdin": "",
@@ -130,8 +133,8 @@
       },
       {
         "id": 12,
-        "name": "Nifla",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Nifla Nalakath",
+        "image": "nifla.jpg",
         "position": "Publicity Team",
         "git": "",
         "linkdin": "",
@@ -139,8 +142,8 @@
       },
       {
         "id": 13,
-        "name": "Haneen",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Mohd Haneen M",
+        "image": "mhaneen.jpg",
         "position": "Technical Team",
         "git": "",
         "linkdin": "",
@@ -149,8 +152,8 @@
      
       {
         "id": 14,
-        "name": "Fiyas",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Muhd Fiyas",
+        "image": "mfiyas.jpg",
         "position": "Technical Team",
         "git": "",
         "linkdin": "",
@@ -159,8 +162,8 @@
      
       {
         "id": 15,
-        "name": "Danish",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Danish Gararin",
+        "image": "danishgagarin.jpg",
         "position": "Technical Team",
         "git": "",
         "linkdin": "",
@@ -168,8 +171,8 @@
       },
       {
         "id": 16,
-        "name": "Sooraj",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Sooraj PS",
+        "image": "sooraj.jpg",
         "position": "Technical Team",
         "git": "",
         "linkdin": "",
@@ -177,8 +180,8 @@
       },
       {
         "id": 17,
-        "name": "Shibil",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Muhd Shibil M",
+        "image": "shibilm.jpg",
         "position": "Website Team",
         "git": "",
         "linkdin": "",
@@ -186,7 +189,7 @@
       },
       {
         "id": 18,
-        "name": "Sinan",
+        "name": "Mohd Sinan K",
         "image": "ttps://via.placeholder.com/150",
         "position": "Website Team",
         "git": "",
@@ -195,8 +198,8 @@
       },
       {
         "id": 19,
-        "name": "Ammar",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Ammar Bin Yasar",
+        "image": "ammar.jpg",
         "position": "Website Team",
         "git": "",
         "linkdin": "",
@@ -204,8 +207,8 @@
       },
       {
         "id": 20,
-        "name": "Najiya",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Najiya Shirin T",
+        "image": "najiya.jpg",
         "position": "Website Team",
         "git": "",
         "linkdin": "",
@@ -213,8 +216,8 @@
       },
       {
         "id": 21,
-        "name": "Sinan",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Sinan Nooren",
+        "image": "sinannooren.jpg",
         "position": "Website Team",
         "git": "",
         "linkdin": "",
@@ -222,8 +225,8 @@
       },
       {
         "id": 22,
-        "name": "Sarhan",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Sarhan Qadir KVM",
+        "image": "sarhan.jpg",
         "position": "Website Team",
         "git": "",
         "linkdin": "",
@@ -232,7 +235,7 @@
       {
         "id": 23,
         "name": "Diya Sherin",
-        "image": "ttps://via.placeholder.com/150",
+        "image": "diyashirin.jpg",
         "position": "Development Team",
         "git": "",
         "linkdin": "",
@@ -240,8 +243,8 @@
       },
       {
         "id": 24,
-        "name": "Naseem",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Muhd Naseem Shan",
+        "image": "mnaseem.jpg",
         "position": "Development Team",
         "git": "",
         "linkdin": "",
@@ -250,7 +253,7 @@
       {
         "id": 25,
         "name": "Anil Das",
-        "image": "ttps://via.placeholder.com/150",
+        "image": "anildas.jpg",
         "position": "Development Team",
         "git": "",
         "linkdin": "",
@@ -258,8 +261,8 @@
       },
       {
         "id": 26,
-        "name": "Nahitha",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Fathima Nahitha",
+        "image": "fathimanahitha.jpg",
         "position": "Development Team",
         "git": "",
         "linkdin": "",
@@ -267,8 +270,8 @@
       },
       {
         "id": 27,
-        "name": "Hadi",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Haneen Abdul Gafoor",
+        "image": "haneenag.jpg",
         "position": "Documentation Team",
         "git": "",
         "linkdin": "",
@@ -276,8 +279,8 @@
       },
       {
         "id": 28,
-        "name": "Naveena",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Irfana",
+        "image": "irfana.jpg",
         "position": "Documentation Team",
         "git": "",
         "linkdin": "",
@@ -285,8 +288,8 @@
       },
       {
         "id": 29,
-        "name": "Haneen AG",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Abdul Hadi",
+        "image": "abdulhaadi.jpg",
         "position": "Documentation Team",
         "git": "",
         "linkdin": "",
@@ -294,12 +297,13 @@
       },
       {
         "id": 30,
-        "name": "Irfana",
-        "image": "ttps://via.placeholder.com/150",
+        "name": "Naveena",
+        "image": "naveena.jpg",
         "position": "Documentation Team",
         "git": "",
         "linkdin": "",
         "instagram": ""
       }
+     
   ]
 }

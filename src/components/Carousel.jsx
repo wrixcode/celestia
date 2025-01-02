@@ -60,7 +60,7 @@ const Carousel = () => {
           speed={800}
           spaceBetween={40}
           autoplay={{
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           coverflowEffect={{

@@ -1,15 +1,16 @@
-import Footer from "../utils/Footer";
-import Navbar from "../utils/Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import { useEffect, useState } from "react";
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
   const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch("https://celestia-api.onrender.com/gallery");
+        const response = await fetch("https://celestia-api.vercel.app/gallery/");
         if (!response.ok) {
           throw new Error("Failed to fetch images");
         }
@@ -18,7 +19,9 @@ const Gallery = () => {
         setImages(data);
       } catch (error) {
         console.error(error);
-        setError(true); 
+        setError(true);
+      }finally{
+        setLoading(false);
       }
     };
 
@@ -32,9 +35,13 @@ const Gallery = () => {
           <Navbar />
           <div>
             <h1 className="text-white text-center font-bold mb-14 text-5xl py-6">Gallery</h1>
-            {error || images.length === 0 ? (
+            {error ? (
               <div className="flex justify-center items-center h-[300px]">
                 <p className="text-white text-3xl font-bold">Images Not Found</p>
+              </div>
+            ) : loading ? (
+              <div className="flex justify-center items-center min-h-72">
+                <p className="font-bold text-xl md:text-2xl" style={{letterSpacing: 4}}>Loading.....</p>
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-9 px-4 md:px-10 mb-10">
