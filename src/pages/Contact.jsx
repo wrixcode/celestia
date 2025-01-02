@@ -1,13 +1,11 @@
 import React from 'react'
 import { toast } from 'react-toastify';
-<<<<<<< HEAD
 import Navbar from '../utils/Navbar';
 import Footer from '../utils/Footer';
 import contactimg from '../assets/contact-img.png'
-=======
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
->>>>>>> 451bb0324a8bb527baf4f947a4e97c2843b7e6b6
+
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
