@@ -2,6 +2,7 @@ import React from 'react'
 import { toast } from 'react-toastify';
 import Navbar from '../utils/Navbar';
 import Footer from '../utils/Footer';
+import contactimg from '../assets/contact-img.png'
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
@@ -31,23 +32,64 @@ const Contact = () => {
   };
   return (
     <>
-    <div className="flex justify-center" id="contact">
-    <div className="home-head space-y-20 w-[90%] md:w-[70%] lg:h-screen ">
-     <Navbar/>
+     <div className="flex justify-center" id="contact">
+     <div className="home-head space-y-20 w-[90%] md:w-[70%]">
+    <Navbar/>
+    <div className="min-h-screen flex px-4 items-center justify-center bg-gray-900">
+      <div className="w-[800px] bg-[#2D4A60] rounded-2xl  shadow-lg p-6">
+        <h2 className="text-2xl  md:text-5xl font-bold text-white mb-6">Contact Us</h2>
+        <form onSubmit={onSubmit} className="space-y-4  ">
+  <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
 
-    <h1 className='text-white text-center text-5xl font-bold  relative top-2 md:top-7'>Contact Us</h1>
-   
-    <form onSubmit={onSubmit} className="max-w-2xl mx-auto px-5 text-gray-600  md:pt-8">
-      <div className="flex flex-wrap text-white">
-        <div className="w-full md:w-1/2 text-left">Name<input className="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="text" name="Name" placeholder="Name" required />
-        </div><div className="w-full md:w-1/2 text-left md:pl-4">Email<input className="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="email" name="Email" placeholder="Email" required=""/>
-        </div></div><div className="my-6 text-left text-white">Message<textarea className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none" name="Message" placeholder="Message" required="">
-          </textarea>
+
+  <div className=' '>
+   <div className='mb-4' >
+            <input
+              type="text"
+              id="name"
+              className="w-full mt-1 p-2 bg-[#96B8D4] text-black focus:outline-none rounded-xl "
+              placeholder="Name"
+            />
           </div>
-          <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-12 mb-10 rounded">{result ? result : "send message"}</button>
-          </form>
+          <div>
+         
+            <input
+              type="email"
+              id="email"
+              className="w-full mt-1 p-2 bg-[#96B8D4] text-black rounded-xl  focus:outline-none"
+              placeholder="Email"
+            />
+          </div>
+   </div>
+          <div>
+      
+            <textarea
+              id="message"
+              rows="4"
+              className="w-full mt-1 p-2 bg-[#96B8D4] text-black rounded-xl focus:outline-none"
+              placeholder="Message"
+            ></textarea>
+          </div>
+  </div>
+    <div className='md:text-end'>
+    <button
+            type="submit"
+            className="w-full md:w-1/4  py-2 bg-black text-white font-semibold rounded-xl transition"
+          >
+            {result ? result : "send message"}
+          </button>
     </div>
+
+    <div >
+      <img
+      className='hidden md:block max-w-[400px] pl-10   '
+      src={contactimg} alt="" />
     </div>
+        </form>
+      </div>
+    </div>
+</div>
+</div>
 
     <div className="footer  w-full flex justify-around items-center  py-10 bg-black rounded-t-[30px] shadow-[0_0px_15px_rgba(0,0,0,0.62)]">
      <Footer/>
